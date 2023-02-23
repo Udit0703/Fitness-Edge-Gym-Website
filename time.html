@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: url(timeback.jpg);
+            background-size: cover;
+        }
+        option{
+            color: yellowgreen;
+           
+        }
+        button{
+            background: none;
+
+        }
+        select:hover{
+            color:rgb(246, 71, 71);
+            background: none;
+            
+            text-decoration: underline;
+           
+        }
+    </style>
+</head>
+<body>
+    <h style="font-size: 30px; font-style: orelega one;text-align: center;margin: auto;width: 100%;">Select your timetable</h>
+    <form> 
+        <div class="tra">
+        <label for="TimeTable">DAY</label>
+     <select id="TimeTable name="TimeTable">
+       <option value="monday">monday</option>
+       <option value="tuesday">tuesday</option>
+       <option value="wednesday">wednesday</option>
+     </select>
+
+     <label for="timetable">hour</label>
+     <select id="TimeTable name="TimeTable">
+        <option value="early morning">4-6</option>
+        <option value=" morning">6-9</option>
+        <option value="noon">9-12</option>
+        <option value="early evening">4-6</option>
+        <option value=" evening">6-8</option>
+      </select>
+
+     
+ </div>
+ </form>
+ <button onclick="mybutton()">Submit</button> 
+     <script> 
+     function mybutton() { alert("timetable repeats after each 3 days"); } </script>
+
+    
+</body>
+</html>

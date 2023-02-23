@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <style>
+            body{
+                background-color: grey;
+            }
+        </style>
+    </head>
+<body> 
+<div style="text-align:center"> 
+  <video id="video1" width="420">
+
+    
+    Your browser does not support HTML video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+<div style="display: flex;justify-content: center; padding-bottom: 15px;">
+<img src="g1.jpeg" alt="gallary" width="40%" height="100%" style="padding-right: 10px;">
+
+<img src="g2.jpeg" alt="gallary" width="40%" height="100%">
+</div>
+<div style="display: flex;justify-content: center;">
+<img src="g3.jpeg" alt="gallary" width="40%" height="100%" style="padding-right: 10px;">
+
+<img src="g4.jpg" alt="gallary" width="40%" height="100%">
+</div>
+<p style="text-decoration: none;text-align: center;">Video courtesy of <a href="gym.mp4" target="_blank" style="text-decoration: none;border: 2px grey;
+  padding: 10px;
+  font-size: 25px">Gym Teaser</a>.</p>
+</body>
+</html>

@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.nav-list{
+    position: absolute;
+    top: 5px;
+}
+
+.nav-list li{
+    width: 50%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    /* text-align: ; */
+    display: flex;
+    text-align: center;
+    padding:0 50px;
+    font-size: 18px;
+   
+}
+.navbar{
+    background-color: rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+   
+    
+}
+.background{
+    background-image: url(dumbbell-g5afee555e_1920.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    height: 100vh;
+    clip-path: polygon(100% 0, 100% 91%, 49% 100%, 0 89%, 0 0);
+    background-color: black;
+}
+.content{
+    display: flex;
+}
+
+.cont{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
+
+.nav-list{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    
+ }
+ .nav-list li a{
+    text-decoration:none;
+    color:grey;
+    border: 3px  black;
+    border-radius: 30px;
+
+ }
+ .nav-list li a:hover{
+    text-decoration:underline;
+    color:yellowgreen;
+ }
+ header .con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+header .content h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+ .info{
+     text-align: center;
+     font-style: calc();
+     color: black;
+     padding: 40px 10px;
+ }
+ .infop{
+     font-size: 25px;
+     padding: 25px;
+    
+ }
+ .information{
+     display: flex;
+     justify-content: center;
+ }
+ .onfo{
+     padding: 45px 10px;
+ }
+ section.content{margin-top: 50px;}
+ .aright{
+    border: 0px solid black;
+    height: 100%;
+    width: 100%;
+ }
+.mid{
+    padding: 40px;   
+    font-size: 30px;
+}
+.cl{
+    color: #49464d;
+    padding: 10px;
+   
+    font-size: 3rem;
+    cursor: pointer;
+}
+.aleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rede button{
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid gray;
+    background: none;
+    color: yellowgreen;
+    border-radius: 40px;
+}
+.rede:hover button{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.images{
+    
+    justify-content: center;
+    text-align: center;
+
+}
+.foot{
+    text-align: center;
+    background-color: #49464d;
+    width: 100%;
+    padding: 15px;
+}
